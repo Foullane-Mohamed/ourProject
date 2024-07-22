@@ -5,6 +5,9 @@
 
 .para {
   margin: 0;
+  text-align: center;
+  font-size: 40px;
+  color: rgb(0, 55, 13);
 }
 
 .para:not(:last-child) {
@@ -19,14 +22,15 @@ body-hero-div {
   min-height: 100vh;
   padding: 30px;
   color: #224;
-  background: url(https://source.unsplash.com/E8Ufcyxz514/2400x1823) center/cover no-repeat fixed;
+  background: url(https://source.unsplash.com/E8Ufcyxz514/2400x1823)
+    center/cover no-repeat fixed;
 }
 
 .card-hero {
   width: 100%; /* Set card width to 80% of the viewport width */
   height: 70vh; /* Increase minimum height */
   display: flex;
-  
+
   align-items: center;
   justify-content: center;
   padding: 35px;
@@ -36,14 +40,12 @@ body-hero-div {
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(15px);
   flex-direction: column;
-  
+
   flex-wrap: wrap;
   flex-direction: column;
 }
-
 
 .card-footer {
   font-size: 0.65em;
   color: #446;
 }
-

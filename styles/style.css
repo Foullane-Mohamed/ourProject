@@ -293,7 +293,7 @@ h5 {
   transition: transform 0.35s;
 }
 .card-hover:hover .card-hover__content {
-  background-color: #499868;
+  background-color: #547638;
   bottom: 100%;
   transform: translateY(100%);
   padding: 50px 60px;
@@ -311,7 +311,7 @@ h5 {
 .card-hover__content {
   width: 100%;
   text-align: center;
-  background-color: #86B971;
+  background-color: #547638;
   padding: 0 60px 50px;
   position: absolute;
   bottom: 0;
@@ -345,7 +345,7 @@ h5 {
   margin-bottom: 1em;
 }
 .card-hover__title span {
-  color: #2d7f0b;
+  color: #c9b92e;
 }
 .card-hover__text {
   font-size: 0.75rem;
@@ -382,7 +382,7 @@ h5 {
   width: 100%;
   font-size: 1.5rem;
   text-align: center;
-  background-color: #86b971;
+  background-color: #547638;
   padding: 80px;
   bottom: 0;
   z-index: 0;
