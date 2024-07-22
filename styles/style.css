@@ -288,7 +288,7 @@ h5 {
   box-shadow: 0 0 32px -10px rgba(0, 0, 0, 0.08);
   z-index: 888;
 }
-.card-hover:has(.card-hover__link:hover) .card-hover__extra {
+.card-hover:has(.card-hover__link:hover) {
   transform: translateY(0);
   transition: transform 0.35s;
 }
@@ -372,28 +372,8 @@ h5 {
   margin-left: 4px;
   transition: transform 0.3s;
 }
-.card-hover__extra {
-  height: 50%;
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  width: 100%;
-  font-size: 1.5rem;
-  text-align: center;
-  background-color: #547638;
-  padding: 80px;
-  bottom: 0;
-  z-index: 0;
-  color: #dee8c2;
-  transform: translateY(100%);
-  will-change: transform;
-  transition: transform 0.35s;
-}
-.card-hover__extra span {
-  color: #2d7f0b;
-}
+
+
 .card-hover .img-card {
   position: absolute;
   top: 0;
