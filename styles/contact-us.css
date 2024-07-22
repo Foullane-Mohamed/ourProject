@@ -1,4 +1,4 @@
-* {
+/* * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -12,10 +12,10 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-}
+} */
 
 .contact-form-container {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: #547638;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -27,7 +27,7 @@ body {
   margin-bottom: 20px;
   font-size: 24px;
   text-align: center;
-  color: #4CAF50;
+  color: white;
 }
 
 .form-group {
@@ -38,7 +38,7 @@ body {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
-  color: #333;
+  color: #c9b92e;
 }
 
 .form-group input,
@@ -57,11 +57,11 @@ body {
   outline: none;
 }
 
-button {
+.button-countactUs {
   display: block;
   width: 100%;
   padding: 10px;
-  background-color: #4CAF50;
+  background-color: #c9b92e;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -70,8 +70,8 @@ button {
   transition: background-color 0.3s;
 }
 
-button:hover {
-  background-color: #45a049;
+.button-countactUs:hover {
+  background-color: #f7f72f;
 }
 .contact-div{
   width: 100%;
