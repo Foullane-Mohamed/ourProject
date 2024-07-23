@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.calendar{
+  width: 100%;
+  height: 100vh;
+  background-color: #a59004;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.calendar h2{
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+.calendarSpace{
+  width: 60%;
+  height: 80vh;
+  background-color: #a2930c;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto;
+  gap: 10 px;
+
+}
+.calendarSpace div{
+  background-color: #547638;
+  gap: 20px;
+  margin: 20px;
+}
+.calendarSpace div:hover{
+  background-color: #547638;
+  gap: 20px;
+  margin: 20px;
+}
+.mois {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.moi-1{}
+.moi-2{}
+.moi-3{}
+.moi-4{}
+.moi-5{}
+.moi-6{}
+.moi-7{}
+.moi-8{}
+.moi-9{}
+.moi-10{}
+.moi-11{}
+.moi-12{}
